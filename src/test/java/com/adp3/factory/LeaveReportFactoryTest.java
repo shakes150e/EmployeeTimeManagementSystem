@@ -18,7 +18,7 @@ public class LeaveReportFactoryTest {
     @Before
     public void setUp() throws Exception {
         this.leaveReport = new LeaveReport.Builder().build();
-        leaveReport = LeaveReportFactory.createLeaveReport("001","Sick Leave");
+        leaveReport = com.adp3.factory.LeaveReportFactory.createLeaveReport("001","Sick Leave");
     }
     @Test
     public void testCreateLeaveReport() {
